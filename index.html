@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>TapSwap Coin Clicker Game</title>
+</head>
+<body>
+    <header>
+        <h1>TapSwap Coin Clicker Game</h1>
+        <p>Click the coin to increase your value!</p>
+    </header>
+    <div id="game-container">
+        <div id="coin-value" aria-live="polite">0</div>
+        <div id="coin-button">
+            <button id="coin-button" onclick="increaseCoinValue()" aria-label="Increase coin value">
+                <img src="./images/coin.png" alt="Coin image">
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        <button onclick="location.href='https://example.com/buy-sell'">Buy/Sell</button>
+        <button onclick="location.href='https://example.com/wallet'">Wallet</button>
+        <button onclick="location.href='https://example.com/transactions'">Transactions</button>
+        <button onclick="location.href='https://example.com/settings'">Settings</button>
+    </footer>
+</body>
+</html>
