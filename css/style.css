@@ -133,12 +133,9 @@ footer button:hover {
         padding: 10px 0;
     }
     button {
-        width: 100%;
+        width: auto%;
         font-size: 14px;
         padding: 10px;
         justify-content: center;
-    }
-    button i {
-        margin-right: 10px;
     }
 }
